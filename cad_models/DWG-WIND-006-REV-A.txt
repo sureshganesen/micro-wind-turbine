@@ -1,0 +1,60 @@
+================================================================================
+ENGINEERING DRAWING SPECIFICATION SHEET (ISO STANDARD / ASME Y14.5M)
+ATOM FORGE STUDIO // MECHANICAL ENGINEERING DIVISION
+================================================================================
+DRAWING NUMBER: DWG-WIND-006-REV-A           SYSTEM: Micro Wind Turbine Harvester
+PART NUMBER   : SG-WIND-006                  DATE  : 2026-11-08
+AUTHOR/ENG    : Suresh Ganesen               STATUS: APPROVED (REV A)
+INSTITUTION   : Politeknik Malaysia          CGPA  : 3.85 (Head of Dept Award)
+================================================================================
+
+1. GENERAL MECHANICAL TOLERANCES (UNLESS OTHERWISE SPECIFIED):
+   - Linear Dimensions:
+       0.5 mm to 6.0 mm    : +/- 0.05 mm
+       6.0 mm to 30.0 mm   : +/- 0.10 mm
+       30.0 mm to 120.0 mm : +/- 0.15 mm
+       120.0 mm to 400.0 mm: +/- 0.20 mm
+   - Angular Tolerance     : +/- 0.2 deg (120.0 deg radial pitch)
+   - Hole Concentricity    : ⌀ 0.02 mm to datum shaft A
+
+2. CRITICAL FIT & CLEARANCE:
+   - Central Hub Shaft Bore: ⌀ 8.00 mm H7 (+0.015 / -0.000 mm)
+   - Dynamo Shaft O.D.     : ⌀ 8.00 mm h6 (+0.000 / -0.009 mm)
+   - Fit Type              : Transition Fit (Light push fit with M4 set screw retention)
+
+3. AERODYNAMIC ROTOR SPECIFICATIONS:
+   - Configuration         : 3-Blade Horizontal Axis Wind Turbine (HAWT)
+   - Total Swept Diameter  : ⌀ 420.0 mm (Rotor Radius R = 210.0 mm)
+   - Swept Rotor Area      : 0.13854 m^2
+   - Aerofoil Section      : Cambered High-Lift Airfoil (Camber = 14.5 mm, Chord = 48.0 mm)
+   - Blade Twist Gradient  : 18.0 deg at root tapering to 4.5 deg at blade tip
+   - Power Coefficient (Cp): 28.5% (Relative to Betz Theoretical Max 59.3%)
+   - Cut-In Wind Velocity  : 2.2 m/s (0.012 N*m startup torque)
+   - Rated Wind Velocity   : 8.5 m/s (Regulated 5.0V DC @ 350-400 mA)
+
+4. ELECTRICAL & POWER SUBSYSTEM:
+   - Generator Type        : 3-Phase Coreless Permanent Magnet DC Dynamo (Neodymium N42)
+   - Rectifier Topology    : Schottky Full-Bridge Rectifier (4x 1N5819, Vf ~= 0.32V)
+   - Smoothing Filter      : 1000 uF 25V Low-ESR Electrolytic Capacitor
+   - DC Voltage Regulator  : High-Efficiency Synchronous Buck Converter (LM2596 / MP1584)
+   - Regulated Output      : 5.00 V +/- 0.05 V DC via USB-A / USB-C terminal
+   - Safe Operating Temp   : -20 deg C to +65 deg C
+
+5. MATERIAL SPECIFICATION:
+   - Rotor Blades          : UV-Stabilized Polyethylene Terephthalate Glycol (PETG) / ASA
+   - Tri-Blade Hub Mount   : High-Density High-Impact Polymer / CNC 6061-T6 Aluminum
+   - Fasteners             : Grade 304 Stainless Steel (A2-70) M4 Metric Fasteners
+   - Structural Mast       : Class D Reinforced Mast (⌀ 32 mm O.D., 1.2 m height)
+
+6. BILL OF MATERIALS (BOM) SUMMARY:
+   Item | Part Number  | Description                    | Qty | Unit Cost | Total Cost
+   -----+--------------+--------------------------------+-----+-----------+-----------
+   01   | SG-WND-BLD1  | Cambered Aerofoil Rotor Blades | 3   | RM  2.00  | RM  6.00
+   02   | SG-WND-HUB1  | 120° Tri-Blade Hub Mount       | 1   | RM  4.50  | RM  4.50
+   03   | MC-GEN-DC12  | Permanent Magnet DC Dynamo     | 1   | RM 16.00  | RM 16.00
+   04   | EL-RECT-5V   | Schottky Full-Bridge + 5V Reg  | 1   | RM  4.20  | RM  4.20
+   05   | MC-TOWER-PVC | 1.2m Rigid Structural Mast     | 1   | RM  8.00  | RM  8.00
+   06   | FS-FAST-SSM4 | M4x16mm SS Fasteners & Nuts    | 6   | RM  0.30  | RM  1.80
+   -----+--------------+--------------------------------+-----+-----------+-----------
+   TOTAL DIRECT MATERIAL COST                           : RM 40.50 (~$9.10 USD)
+================================================================================

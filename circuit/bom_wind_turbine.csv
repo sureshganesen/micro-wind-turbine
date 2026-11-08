@@ -1,0 +1,9 @@
+Item,Part Number,Description,Material / Spec,Qty,Unit Cost (MYR),Unit Cost (USD),Vendor / Source,Safety Factor
+01,SG-WND-BLD1,Cambered Aerofoil Rotor Blades (195mm),PETG / ASA UV Polymer,3,2.00,0.45,Workshop 3D Print / DFM,3.2
+02,SG-WND-HUB1,120° Tri-Blade Hub Mount (⌀72mm),High-Density Structural Core,1,4.50,1.01,Workshop Machined / Printed,3.5
+03,MC-GEN-DC12,Permanent Magnet DC Dynamo Generator,Neodymium N42 / Copper Core,1,16.00,3.60,Dynamo Hub Supplier,N/A
+04,EL-RECT-5V,Schottky Full-Bridge Rectifier + 5V Buck Reg,1N5819 Schottky + MP1584,1,4.20,0.95,Electronics Hub Supplier,N/A
+05,MC-TOWER-PVC,1.2m Rigid Structural Mast Assembly,Class D Reinforced Tube ⌀32mm,1,8.00,1.80,Hardware Supplier,4.0
+06,FS-FAST-SSM4,M4x16mm Hex Fasteners & Nyloc Nuts,Grade 304 Stainless Steel,6,0.30,0.07,Fastener Supplier,5.0
+07,EL-CAP-1000U,1000µF 25V Low-ESR Radial Capacitor,Aluminum Electrolytic,1,1.20,0.27,Electronics Component Co,2.5
+08,EL-USB-FEM,Female USB-A Output Breakout Jack,Gold Plated Contacts,1,1.80,0.41,Electronics Hub Supplier,N/A
